@@ -49,15 +49,22 @@ export const filters = [
       // Note: label is not added through the translation files
       // to make filter customizations a bit easier.
       options: [
-        { key: 'men', label: 'Men' },
-        { key: 'women', label: 'Women' },
-        { key: 'kids', label: 'Kids' },
+        { key: 'panties', label: 'panties' },
+        { key: 'socks', label: 'socks' },
+        { key: 'bras', label: 'bras' },
+		{ key: 'moments', label: 'moments' },
+		{ key: 'shoes', label: 'shoes' },
+		{ key: 'bathwater', label: 'bathwater' },
+		{ key: 'toys', label: 'toys' },
+		{ key: 'dresses', label: 'dresses' },
+		{ key: 'other', label: 'other' },
       ],
     },
   },
+  
   {
     id: 'size',
-    label: 'Size (US)',
+    label: 'Age',
     type: 'SelectMultipleFilter',
     group: 'primary',
     queryParamNames: ['pub_size'],
@@ -73,21 +80,20 @@ export const filters = [
       // Note: label is not added through the translation files
       // to make filter customizations a bit easier.
       options: [
-        { key: '4', label: '4' },
-        { key: '5', label: '5' },
-        { key: '6', label: '6' },
-        { key: '7', label: '7' },
-        { key: '8', label: '8' },
-        { key: '9', label: '9' },
-        { key: '10', label: '10' },
-        { key: '11', label: '11' },
-        { key: '12', label: '12' },
+        { key: '18-25', label: '18-25' },
+        { key: '25-29', label: '25-29' },
+        { key: '30-34', label: '30-34' },
+        { key: '35-39', label: '35-39' },
+        { key: '40-44', label: '40-44' },
+        { key: '45-49', label: '45-49' },
+        { key: '50-54', label: '50-54' },
+        { key: '55-59', label: '55-59' },
       ],
     },
   },
   {
     id: 'brand',
-    label: 'Brand',
+    label: 'Hair Color',
     type: 'SelectMultipleFilter',
     group: 'primary',
     queryParamNames: ['pub_brand'],
@@ -103,16 +109,10 @@ export const filters = [
       // Note: label is not added through the translation files
       // to make filter customizations a bit easier.
       options: [
-        { key: 'adidas', label: 'Adidas' },
-        { key: 'air_jordan', label: 'Air Jordan' },
-        { key: 'converse', label: 'Converse' },
-        { key: 'new_balance', label: 'New Balance' },
-        { key: 'nike', label: 'Nike' },
-        { key: 'puma', label: 'Puma' },
-        { key: 'ultraboost', label: 'Ultraboost' },
-        { key: 'vans', label: 'Vans' },
-        { key: 'yeezy', label: 'Yeezy' },
-        { key: 'other', label: 'Other' },
+        { key: 'black', label: 'black' },
+        { key: 'brown', label: 'brown' },
+        { key: 'blond', label: 'blond' },
+        { key: 'red', label: 'red' },
       ],
     },
   },
